@@ -2,14 +2,16 @@ const RainStream = () => {
     return (
         <div
             style = {{
+                fontFamily: 'matrixFont',
                 color: '#20c20e',
-                writingMode: 'vertical-lr',
+                writingMode: 'vertical-rl',
+                textOrientation: 'upright',
                 whiteSpace: 'nowrap',
                 userSelect: 'none',
                 textShadow: '0px 0px 8px rgbs(32, 194, 14, 0.8)',
                 fontSize: 20,
             }}>
-                <a>hiiiiiiiiiiii</a>
+                <a>testing</a>
         </div>
     );
 };
